@@ -3,8 +3,8 @@ services:
   worker:
     build: .
     environment:
-    API_ID:$(API_ID) 
-    API_HASH:$(API_HASH) 
-    SESSION:$(SESSION) 
-    HNDLR:$(HNDLR) 
-    GROUP_MODE:$(GROUP_MODE) 
+    API_ID:$API_ID
+    API_HASH:$API_HASH
+    SESSION:$SESSION
+    HNDLR:$HNDLR
+    GROUP_MODE:$GROUP_MODE) 
